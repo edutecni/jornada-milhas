@@ -10,6 +10,10 @@ import { CardComponent } from './shared/card/card.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
+import { CardDeDestinoComponent } from './shared/card-de-destino/card-de-destino.component';
+import { ContainerComponent } from './shared/container/container.component';
+import { HomeComponent } from './pages/home/home.component';
+import { CardBuscaComponent } from './shared/card-busca/card-busca.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +21,11 @@ import { MatButtonModule } from '@angular/material/button';
     HeaderComponent,
     FooterComponent,
     BannerComponent,
-    CardComponent
+    CardComponent,
+    CardDeDestinoComponent,
+    ContainerComponent,
+    HomeComponent,
+    CardBuscaComponent
   ],
   imports: [
     BrowserModule,
