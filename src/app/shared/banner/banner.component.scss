@@ -1,9 +1,11 @@
 figure{
-    
-    img{
+    // border: 10px solid;
+    margin: 0;
+    .img-banner{
         display: block;
-        margin: 0 auto;
-        max-width: 1048px;
+        margin: 0;
+        padding: 0;
+        //max-width: 1366px;
         width: 100%;
     }
 }
