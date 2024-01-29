@@ -1,0 +1,18 @@
+.depoimento {
+    width: 320px;
+    background-color: #FEF7FF;
+    border: none;
+    display: flex;
+    align-items: center;
+    vertical-align: text-top;
+    
+    img {
+      max-width: 56px;
+      max-height: 56px;      
+      margin: 10px;
+    }
+    
+    mat-card-content {
+      display: flex;      
+    }
+  }
